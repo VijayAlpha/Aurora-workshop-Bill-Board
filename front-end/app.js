@@ -129,7 +129,7 @@ const addMyMessage = async ( msg ) => {
       let tx = await msgTx.wait();
 
       if (tx) {
-        window.location = "/";
+        location.reload();
       }
     } else {
       alert("Ethereum object doesn't exist!");
