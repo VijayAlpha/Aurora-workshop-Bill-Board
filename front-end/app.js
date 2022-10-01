@@ -73,6 +73,7 @@ async function connectWallet() {
   }
 }
 
+// Get Bills
 const getBillBoards = async () => {
   try {
     const { ethereum } = window;
@@ -110,6 +111,7 @@ const getBillBoards = async () => {
   }
 };
 
+// Add My Bills
 const addMyMessage = async ( msg ) => {
   try {
     const { ethereum } = window;
