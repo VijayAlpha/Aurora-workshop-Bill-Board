@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.0/ethers.umd.min.js"
+    integrity="sha512-+Ftowzj6zmwHlez4gpQxd7QQUzK/ocgu10pukN3Pyqblni7yJ9r/WTpNHoYKL4DGOp5givxSUZjJcVY7Az9OAQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+   
+    <link rel="stylesheet" href="./style.css">
+    <title>Bill Board App</title>
+</head>
+<body>
+    <main>
+        <div class="nav">
+            <h1 class="title">Bill Board DApp</h1>
+
+            <!-- <div class="connect__wallet">
+                <button onclick="getBillBoards()">
+                    Connect Wallet
+                </button>
+            </div> -->
+        </div>
+
+        <div class="main" id="billboard">
+            <!-- <div class="bill" >
+                <p class="bill__sender">
+                    By:  0x98616A2dadda8ab448e19327fD775836330869e3
+                  </p>
+                <p class="bill__msg">
+                    test Msg one 
+                </p>
+                <p class="bill__time">
+                   At: Sat, 01 Oct 2022 06:22:06 GMT
+                </p>
+            </div> -->
+        </div>
+
+        <div class="input">
+            <input class="input-box" id="msg-input" type="text" placeholder="Add Your Message..." required>
+            <button class="send-btn btn" id="add-btn">Add My Msg</button>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
